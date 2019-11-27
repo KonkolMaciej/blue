@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns2:InputTestData
+        xmlns:ns2="urn:org:easetech:easytest:1.0">
+    <TestMethod name="contactFormTest">
+        <TestRecord id="1">
+            <InputData>
+                <Entry key="fullname" value="BlueServices Test" />
+                <Entry key="email" value="bs@blueservices.pl" />
+                <Entry key="phoneNumber" value=" +48 123 123 123" />
+                <Entry key="emailMessage" value="automat test Blueservices" />
+            </InputData>
+        </TestRecord>
+    </TestMethod>
+</ns2:InputTestData>

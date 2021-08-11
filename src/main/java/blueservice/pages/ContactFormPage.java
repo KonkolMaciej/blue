@@ -10,16 +10,16 @@ public class ContactFormPage {
     private WebElement bussinessCustomerTypeRB;
 
     @FindBy(id = "name")
-    public WebElement fullNameTextField;
+    private WebElement fullNameTextField;
 
     @FindBy(id = "email_c")
-    public WebElement emailTextField;
+    private WebElement emailTextField;
 
     @FindBy(xpath = "//label[@for = 'email_c']/span[@class= 'form__input__label__content']")
-    public WebElement emailTest;
+    private WebElement emailTest;
 
     @FindBy(id = "phone")
-    public WebElement phoneNumberTextField;
+    private WebElement phoneNumberTextField;
 
     @FindBy(id = "select2-subject-container")
     private WebElement selectEmailSubject;

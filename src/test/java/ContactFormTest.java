@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 @RunWith(DataDrivenTestRunner.class)
-@DataLoader(filePaths = {
+    @DataLoader(filePaths = {
         "src/test/resources/contactFormTest.xml"}, loaderType = LoaderType.XML, writeData = false)
 public class ContactFormTest {
     private PageObjectManager manager;

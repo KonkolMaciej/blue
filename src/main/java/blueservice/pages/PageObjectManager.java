@@ -1,7 +1,5 @@
 package blueservice.pages;
 
-import blueservice.pages.ContactFormPage;
-import blueservice.pages.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

@@ -7,7 +7,7 @@
                 <Entry key="fullname" value="BlueServices Test" />
                 <Entry key="email" value="bs@blueservices.pl" />
                 <Entry key="phoneNumber" value=" +48 123 123 123" />
-                <Entry key="emailMessage" value="automat test Blueservices" />
+                <Entry key="body" value="automat test Blueservices" />
             </InputData>
         </TestRecord>
     </TestMethod>

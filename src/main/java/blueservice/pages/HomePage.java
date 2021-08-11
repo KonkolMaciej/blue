@@ -8,7 +8,7 @@ public class HomePage {
     @FindBy(xpath = "//div[@class ='header__navigation']/a[@href='/kontakt']")
     private WebElement contactPage;
 
-    public void ContactPageClick(){
+    public void ContactPageClick() {
         contactPage.click();
     }
 }
